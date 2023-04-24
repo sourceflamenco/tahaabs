@@ -6,8 +6,8 @@ if (function_exists('fastcgi_finish_request')) {
 fastcgi_finish_request();
 }
 ob_start();
-$API_KEY = "توكن";
-$Amind = 5535575583;
+$API_KEY = "6292808836:AAFiXGYL_nnOvrrIK9_V1Tt4I1KI3AHtZhA";
+$Amind = 5707831441;
 define('Admin',$Amind);
 define('API_KEY',$API_KEY);
 define('IDBot', explode(":", API_KEY)[0]);
